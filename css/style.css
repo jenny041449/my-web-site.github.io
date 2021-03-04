@@ -1,0 +1,574 @@
+            * {
+                background-position: center;
+                background-repeat: no-repeat;
+                box-sizing: border-box;
+                text-decoration: none;
+                list-style-type: none;
+                background-size: cover;
+            }
+            
+            *[class^="icon"] {
+                background-size: contain;
+            }
+            
+            .light-color {
+                color: white;
+            }
+            
+            .primary_color {
+                color: #AA0601;
+            }
+            
+            .bg_primary_color {
+                background-color: #AA0601;
+            }
+            
+            .Secondary_color {
+                color: #650300;
+            }
+            
+            .bg_Secondary_color {
+                color: white;
+                background-color: #AA0601;
+            }
+            
+            .bg_info_color {
+                background-color: #AA06010D;
+            }
+            
+            .display-1 {
+                font-size: 64px;
+            }
+            
+            .display-2 {
+                font-size: 54px;
+            }
+            
+            h1,
+            .h1 {
+                font-size: 48px;
+            }
+            
+            h2,
+            .h2 {
+                font-size: 36px;
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            .pa-1 {
+                padding: 5px;
+            }
+            
+            .pb-1 {
+                padding-bottom: 5px;
+            }
+            
+            .pb-2,
+            .pa-2 {
+                padding-bottom: 10px;
+            }
+            
+            .pa-2 {
+                padding: 10px;
+            }
+            
+            .pa-3 {
+                padding: 20px;
+            }
+            
+            .px-2 {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            
+            .px-3 {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            .pt-3 {
+                padding-top: 20px;
+            }
+            
+            .pb-3 {
+                padding-bottom: 20px;
+            }
+            
+            .ma-1 {
+                margin: 5px !important;
+            }
+            
+            .ma-2 {
+                margin: 10px !important;
+            }
+            
+            .mt-3 {
+                margin-top: 20px !important;
+            }
+            
+            .ma-3 {
+                margin: 20px !important;
+            }
+            
+            .pa-5 {
+                padding: 64px;
+            }
+            
+            .mt-5 {
+                margin-top: 64px;
+            }
+            
+            .pt-5,
+            .pa-5 {
+                padding-top: 64px;
+            }
+            
+            .pa-5,
+            .pb-5 {
+                padding-bottom: 64px;
+            }
+            
+            .py5 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            
+            .my2 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            
+            .my-5 {
+                margin: 64px 0;
+            }
+            
+            .d-flex {
+                display: flex;
+            }
+            
+            .justify-content-center {
+                justify-content: center;
+            }
+            
+            .justify-content-right {
+                justify-content: flex-end;
+            }
+            
+            .justify-content-between {
+                justify-content: space-between;
+            }
+            
+            .align-items-center {
+                align-items: center;
+            }
+            
+            .flex-cloumn {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .text-bold {
+                font-weight: bold;
+            }
+            
+            .text-align {
+                text-align: center;
+            }
+            
+            .text-align-right {
+                text-align: right;
+            }
+            
+            .cusor_pointer {
+                cursor: pointer;
+            }
+            
+            .icon {
+                width: 100px;
+                height: 100px;
+                /* margin: auto; */
+            }
+            /* header */
+            
+            .header {
+                padding: 20px 0;
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .header .pict {
+                margin-left: 3rem;
+                width: 80px;
+                height: 48px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png");
+                opacity: 1;
+            }
+            
+            .headerMenu li {
+                margin: 0 2rem;
+            }
+            
+            .headerMenu li a {
+                color: white;
+                text-decoration: none;
+                font-size: 23px;
+                flex-direction: row-reverse;
+                transition: 0.5s;
+            }
+            
+            .headerMenu li a:hover {
+                opacity: 0.5;
+            }
+            
+            .container {
+                width: 100%;
+                max-width: 1100px;
+                margin: 0 auto;
+            }
+            
+            .content {
+                max-width: 730px;
+                width: 100%;
+            }
+            
+            .full-height {
+                height: 100%;
+            }
+            /* navbar */
+            
+            .navbar {
+                width: 100%;
+                height: 800px;
+                background-repeat: no-repeat;
+                background-position: 50%;
+                background-size: cover;
+                background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true");
+            }
+            
+            .profession {
+                max-width: 100%;
+                line-height: 1.5;
+            }
+            
+            .profession_Menu {
+                display: flex;
+                justify-content: space-evenly;
+            }
+            
+            .profession_Menu_Card {
+                width: 208px;
+                /* margin: 39px; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .profession_txt {
+                width: 208px;
+            }
+            
+            .introduction_card_icon {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                text-transform: uppercase;
+            }
+            
+            .introduction_icon_img {
+                margin: 10px;
+                width: 45px;
+                height: 63px;
+            }
+            
+            .introduction_card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .introduction ul li {
+                padding: 15px 0;
+            }
+            
+            .introduction_card_img {
+                width: 585px;
+                height: 250px;
+                transition: opacity 0.5s;
+                transition-delay: 0.1s;
+            }
+            
+            .introduction_card_img:hover {
+                opacity: 0.5;
+            }
+            
+            .icon-dollar {
+                background-repeat: no-repeat;
+                background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-dollar.svg");
+            }
+            
+            .icon-clock {
+                background-repeat: no-repeat;
+                background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-clock.svg");
+            }
+            
+            .icon-heart {
+                background-repeat: no-repeat;
+                background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-heart.svg");
+            }
+            
+            .icon-glasses {
+                background-repeat: no-repeat;
+                background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-glasses.svg");
+            }
+            
+            .profession_Menu_Card_txt {
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .co-branding {
+                min-height: 805px;
+                background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/bg.png');
+            }
+            
+            .co-branding .branding-card {
+                margin: 0 15px;
+                width: 540px;
+                height: 472px;
+                position: relative;
+                z-index: 1;
+            }
+            
+            .branding-card::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #ffffff8f;
+                z-index: -1;
+            }
+            
+            .branding-card:hover::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #ffffffcc;
+                z-index: -1;
+            }
+            
+            .branding-card:nth-child(1) {
+                background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-8.png");
+            }
+            
+            .branding-card:nth-child(2) {
+                background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-9.png");
+            }
+            
+            .recommend ul li {
+                /* margin: 10px; */
+                max-width: 255px;
+                width: 25%;
+                /* dddddd */
+                box-sizing: border-box;
+                border: 1px solid #c2c0c08f;
+            }
+            
+            .recommend ul li img {
+                width: 100%;
+                height: auto;
+            }
+            
+            .recommend_content {
+                line-height: 1.5;
+            }
+            
+            .content input[type=text] {
+                width: 100%;
+                height: 40px;
+            }
+            
+            .content input[type=button] {
+                width: 200px;
+                height: 40px;
+            }
+            /* footer */
+            
+            footer {
+                width: 100%;
+            }
+            
+            @media(max-width:1022px) {
+                /* md */
+                h1 {
+                    font-size: 28px;
+                }
+                * {
+                    flex-wrap: wrap;
+                }
+                .container {
+                    max-width: 708px;
+                    margin: 0 auto;
+                }
+                .navbar {
+                    width: 100%;
+                    height: 600px;
+                }
+                h2 {
+                    font-size: 20px;
+                }
+                .display-2 {
+                    font-size: 48px;
+                }
+                .col-md-2 {
+                    width: 50%;
+                    height: auto;
+                }
+                .headerMenu li a {
+                    font-size: 16px;
+                }
+                .md-column:nth-child(2) {
+                    flex-direction: row-reverse;
+                }
+                .introduction_card_icon {
+                    padding: 0 15px;
+                }
+                .introduction_card li:nth-child(2n+0)>div {
+                    flex-direction: row-reverse;
+                }
+                .display-1 {
+                    font-size: 32px;
+                }
+                .co-branding {
+                    min-height: 450px;
+                }
+                .co-branding .branding-card {
+                    width: 330px;
+                    height: 280px;
+                }
+                .pt-5 {
+                    padding-top: 16px;
+                }
+                .pa-5 {
+                    padding: 16px;
+                }
+                .pb-5 {
+                    padding-bottom: 16px;
+                }
+                .content {
+                    width: 450px;
+                }
+                .recommend ul li {
+                    /* margin: 10px; */
+                    max-width: unset;
+                    width: calc(50% - 20px);
+                }
+            }
+            
+            @media(max-width:730px) {
+                /*xs */
+                .container {
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+                .navbar {
+                    width: 100%;
+                    height: 450px;
+                }
+                .headerMenu {
+                    width: 100%;
+                }
+                .headerMenu li {
+                    border: 1px solid;
+                    margin: 0px;
+                    width: 50%;
+                    text-align: center;
+                }
+                .headerMenu li a {
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .co-branding .branding-card {
+                    width: calc( 100% - 20px);
+                    height: 280px;
+                }
+                .content {
+                    width: 345px;
+                }
+                .header {
+                    padding: 0;
+                }
+                .header .pict {
+                    margin: 10px 0;
+                }
+                .col-xs-1 {
+                    width: 100%;
+                }
+                .introduction_card_img {
+                    width: 100%;
+                }
+                .introduction_content {
+                    position: relative;
+                }
+                .introduction_card_icon {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    justify-content: center;
+                    transform: translate(-50%, -50%);
+                    color: white;
+                }
+                .xs-d-flex {
+                    display: flex;
+                }
+                .xs-column {
+                    flex-direction: column;
+                }
+                .xs-row-reverse {
+                    flex-direction: row-reverse;
+                }
+                .xs-space-between {
+                    justify-content: space-between;
+                }
+                .flex-wrap {
+                    flex-wrap: wrap;
+                }
+                .recommend ul li {
+                    flex-wrap: wrap;
+                    width: 345px;
+                }
+                .xs-noshow {
+                    display: none;
+                }
+                .xs-display-3 {
+                    font-size: 16px;
+                }
+                .pa-3 {
+                    padding: 10px;
+                }
+                .xs-iconSize {
+                    width: 40px;
+                    height: 40px;
+                }
+                .recommend ul li {
+                    /* margin: 10px; */
+                    max-width: unset;
+                    width: calc(100% - 20px);
+                }
+                .header {
+                    justify-content: center;
+                }
+            }
