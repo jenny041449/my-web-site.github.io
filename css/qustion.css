@@ -1,0 +1,42 @@
+ul li {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    padding: 5px 8rem;
+}
+
+.banner_txt {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+@media(max-width:1030px) {
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+        padding: 5px 4rem;
+    }
+    .py8 {
+        padding-top: 30px;
+    }
+}

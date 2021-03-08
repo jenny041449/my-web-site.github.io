@@ -1,0 +1,25 @@
+.img {
+    width: 50%;
+    height: 400px;
+}
+
+.blog_txt {
+    width: 50%;
+}
+
+
+/* .blog li img {
+    width: 100%;
+} */
+
+@media(max-width:1030px) {
+    h2 {
+        font-size: 20px;
+    }
+    .display-sm-1 {
+        font-size: 16px;
+    }
+    .display-sm-2 {
+        font-size: 14px;
+    }
+}

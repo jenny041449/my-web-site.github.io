@@ -1,0 +1,59 @@
+h2 {
+    font-size: 20px;
+}
+
+.banner_txt {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.stronghold li img {
+    width: 100%;
+    height: 224px;
+}
+
+.stronghold_icon li img {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+.area {
+    width: 200px;
+    height: 35px;
+    font-size: 25px;
+}
+
+.btn_more {
+    height: 50px;
+    background: #000000;
+    color: white;
+    font-size: 18px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.xx-col-3 {
+    width: calc(33.3333% - 20px);
+}
+
+@media(max-width:1030px) {
+    h1 {
+        font-size: 14px;
+    }
+    .md-col-2 {
+        width: calc(50% - 20px);
+    }
+}
+
+@media(max-width:730px) {
+    /*xs */
+    .xs-col-1 {
+        width: calc(100% - 20px);
+    }
+}
