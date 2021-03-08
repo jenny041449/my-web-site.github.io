@@ -249,6 +249,16 @@
                 margin: auto;
             }
             
+            .margin_Xauto {
+                margin: auto 0;
+            }
+            
+            .img_icon_txt {
+                font-weight: bold;
+                color: black;
+                font-size: 36px;
+            }
+            
             .text-align {
                 text-align: center;
             }
@@ -509,6 +519,12 @@
                 h1 {
                     font-size: 28px;
                 }
+                .img_icon_txt {
+                    font-size: 20px;
+                }
+                .img_icon_title {
+                    width: 36px;
+                }
                 * {
                     flex-wrap: wrap;
                 }
@@ -573,6 +589,9 @@
             
             @media(max-width:730px) {
                 /*xs */
+                .img_icon_title {
+                    font-size: 25px;
+                }
                 .container {
                     max-width: 100%;
                     margin: 0 auto;
@@ -663,5 +682,8 @@
                 }
                 .header {
                     justify-content: center;
+                }
+                .img_icon_txt {
+                    font-size: 20px;
                 }
             }
